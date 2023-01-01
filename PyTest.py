@@ -26,3 +26,12 @@ for i in num:
 
 #print(list1)
 
+#Write a program to check whether a given key exists in a dictionary or not.
+dict = {'0':1, '1':2, '2':3, '4':5}
+def check_key(dict1):
+    for i in dict1:
+        if i in dict:
+            return True
+        else:
+            return False
+#print(check_key('7'))

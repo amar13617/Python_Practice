@@ -49,3 +49,11 @@ sm = 0
 for i in dict1:
     sm = sm + dict1[i]
 #print(sm)
+
+#Write a program to get the maximum and minimum value of dictionary.
+dict1 = {'key 1': 200, 'key 2': 300}
+max = 0
+for i in dict1.values():
+    if i > max:
+        max = i
+#print(max)

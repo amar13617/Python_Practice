@@ -85,4 +85,12 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
-print(factorial(5))
+#print(factorial(5))
+
+#Define a function that accepts lowercase words and returns uppercase words.
+def response(text):
+    z = text.upper()
+    return z
+#print(response("Amar"))
+
+

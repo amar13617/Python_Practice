@@ -93,4 +93,13 @@ def response(text):
     return z
 #print(response("Amar"))
 
+#Write a program to reverse a string in python.
+str = "amit"
+str_reverse = []
+for i in reversed(str):
+    str_reverse.append(i)
+text = "".join(str_reverse)
+#print(text)
+
+
 

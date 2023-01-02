@@ -112,6 +112,17 @@ for i in str:
 
 #print("".join(str_remove))
 
+#Python program to count the occurrence of each character in a word.
+word ="google"
+dict = {}
+for i in word:
+    if i in dict:
+        dict[i] += 1
+    else:
+        dict[i] = 1
+
+#print(dict)
+
 
 
 

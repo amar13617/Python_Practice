@@ -101,5 +101,17 @@ for i in reversed(str):
 text = "".join(str_reverse)
 #print(text)
 
+#Write a program to remove duplicates in a string.
+str = "pythonlobby"
+str_remove = []
+for i in str:
+    if i in str_remove:
+        continue
+    else:
+        str_remove.append(i)
+
+#print("".join(str_remove))
+
+
 
 

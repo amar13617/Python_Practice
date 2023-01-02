@@ -42,3 +42,10 @@ keys = [0,1]
 for k in keys:
     num.pop(k)
 #print(num)
+
+#Write a program to sum all the values of a dictionary.
+dict1 = {'key 1': 200, 'key 2': 300}
+sm = 0
+for i in dict1:
+    sm = sm + dict1[i]
+#print(sm)

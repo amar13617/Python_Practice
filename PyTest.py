@@ -35,3 +35,10 @@ def check_key(dict1):
         else:
             return False
 #print(check_key('7'))
+
+#Python program to remove a set of keys.
+num = {0:"Value 1", 1:"Value 2", 2:"Value 3"}
+keys = [0,1]
+for k in keys:
+    num.pop(k)
+#print(num)

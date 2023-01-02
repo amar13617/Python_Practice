@@ -67,3 +67,14 @@ def maximum(a,b,c):
     else:
         return c
 #print(maximum(4,2,6))
+
+#Define a function which counts vowels and consonant in a word.
+def count(word):
+    const = 0
+    vowel = 0
+    for i in range(len(word)):
+        if word[i] in ["a", "e", "i","o","u"]:
+            vowel = vowel + 1
+        else:
+            const = const + 1
+#print(count("google"))

@@ -123,23 +123,12 @@ for i in word:
 
 #print(dict)
 
-#find a prime number between two numbers.
-a = 10
-b = 40
-for i in range(a, b+1):
-    if i > 1:
-        for j in range(2, i):
-            if i%j == 0:
-                break
-        else:
-            #print("prime",i)
-#print(i)
+a = [1,2,3,4,5,6,7,8]
+print(a[2::2])
 
-
-
-
-
-
-
-
-
+#Reversing string
+str = 'My Name is Jessa'
+str1 = []
+for ele in reversed(str):
+    str1.append(ele)
+#print("".join(str1))

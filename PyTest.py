@@ -140,3 +140,14 @@ for ele in number_list:
     if ele <= 50:
         list1.append(ele)
 #print(list1)
+
+#Display all duplicate items from a list
+sample_list = [10, 20, 60, 30, 20, 40, 30, 60, 70, 80]
+unique = []
+duplicate = []
+for ele in sample_list:
+    if ele not in unique:
+        unique.append(ele)
+    else:
+        duplicate.append(ele)
+#print(duplicate)

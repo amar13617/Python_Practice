@@ -132,3 +132,11 @@ str1 = []
 for ele in reversed(str):
     str1.append(ele)
 #print("".join(str1))
+
+#Remove items from a list while iterating
+number_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+list1 = []
+for ele in number_list:
+    if ele <= 50:
+        list1.append(ele)
+#print(list1)

@@ -151,3 +151,32 @@ for ele in sample_list:
     else:
         duplicate.append(ele)
 #print(duplicate)
+
+#Filter dictionary to contain keys present in the given list
+
+# Calculate the multiplication and sum of two numbers.
+def calculation(a,b):
+    if a * b >= 1000:
+        return a+b
+    else:
+        return a*b
+#print(calculation(2,8))
+
+name = 'natalie'
+name1 = name[::-1]
+#print(name1)
+
+name2 = []
+for i in reversed(name):
+    name2.append(i)
+#print("".join(name2))
+
+message = 'Hola Amigos'
+message1 = 'J' + message[1:]
+#print(message1)
+
+string = "Python is fun"
+#print(string.partition('fun'))
+
+string = "Python is fun, isn't it"
+print(string.partition('is'))

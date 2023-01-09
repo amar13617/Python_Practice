@@ -220,4 +220,11 @@ for k in keys:
 dict = {'c': 2, 'd':4 , 'a' : 3, 'b' : 1}
 list1  = list(dict.items())
 list1.sort(reverse= True)
-print(list1)
+#print(list1)
+
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+dict1 = {}
+for i in range(0, len(keys)):
+    dict1.update({keys[i] : values[i]})
+#print(dict1)

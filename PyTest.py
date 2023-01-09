@@ -180,3 +180,31 @@ string = "Python is fun"
 
 string = "Python is fun, isn't it"
 print(string.partition('is'))
+
+sentences = 'Time to master data science', 'amar', 'at'
+for i in sentences:
+    print(i)
+
+#print('a' > 'b')
+#print('a' < 'b')
+#print('abc'> 'b')
+#print('abd'>'abc')
+
+a = 7/2
+#print(a)
+b = 7%2
+#print(b)
+c = 7//2
+#print(c)
+
+#Write a program to check whether a given key exists in a dictionary or not.
+dict = {'0':1, '1':2, '2':3}
+def check(x):
+    if x in dict:
+        return "yes"
+    else:
+        return "No"
+#print(check('7'))
+
+
+

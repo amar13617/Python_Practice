@@ -252,4 +252,13 @@ sampleDict = {
   "salary": 8000, 
   "city": "New york" }
 sampleDict["Location"] = sampleDict.pop("city")
-print(sampleDict)
+#print(sampleDict)
+
+def check(mydict):
+
+    sm = 0
+    for i in mydict:
+        sm =sm + mydict[i]
+    return sm
+dict1 = {'key 1': 200, 'key 2': 300}
+print(check(dict1))

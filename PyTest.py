@@ -243,4 +243,13 @@ sampleDict = {
 
 keys = ["name", "salary"]
 n = {k: sampleDict[k] for k in keys}
-print(n)    
+#print(n)
+
+#Write a program to rename a key city to a location in the following dictionary.
+sampleDict = { 
+  "name": "Kelly",
+  "age":25, 
+  "salary": 8000, 
+  "city": "New york" }
+sampleDict["Location"] = sampleDict.pop("city")
+print(sampleDict)

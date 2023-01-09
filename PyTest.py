@@ -228,3 +228,19 @@ dict1 = {}
 for i in range(0, len(keys)):
     dict1.update({keys[i] : values[i]})
 #print(dict1)
+
+#Merge two Python dictionaries into one
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+dict1.update(dict2)
+#print(dict1)
+
+sampleDict = { 
+  "name": "Kelly",
+  "age":25, 
+  "salary": 8000, 
+  "city": "New york" }
+
+keys = ["name", "salary"]
+n = {k: sampleDict[k] for k in keys}
+print(n)    

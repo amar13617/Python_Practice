@@ -206,5 +206,18 @@ def check(x):
         return "No"
 #print(check('7'))
 
+#Write a program to iterate over dictionary items using for loop.
 
+#Python program to remove a set of keys.
+dict1 = {0:"Value 1", 1:"Value 2", 2:"Value 3"}
 
+keys = [0,1]
+for k in keys:
+    dict1.pop(k)
+#print(dict1)
+
+#Python program to sort dictionary by values (Ascending/ Descending).
+dict = {'c': 2, 'd':4 , 'a' : 3, 'b' : 1}
+list1  = list(dict.items())
+list1.sort(reverse= True)
+print(list1)

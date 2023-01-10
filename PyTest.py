@@ -261,4 +261,15 @@ def check(mydict):
         sm =sm + mydict[i]
     return sm
 dict1 = {'key 1': 200, 'key 2': 300}
-print(check(dict1))
+#print(check(dict1))
+
+#dict1 = {'key 1': 'Apple','key 2':'Mango','key 3':'Papaya'}
+
+#for i in sorted(dict1.values()):
+
+#Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x)
+dict1 = {}
+for i in range(1,11):
+    dict1[i] = i*i
+print(dict1)
+

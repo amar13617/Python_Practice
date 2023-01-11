@@ -333,5 +333,21 @@ tuple2 = list(tuple1)
 tuple_list = []
 for i in reversed(tuple2):
     tuple_list.append(i)
-print(tuple(tuple_list))
+#print(tuple(tuple_list))
+
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+#print(tuple1[1][1])
+
+#Swaping
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+tuple1 , tuple2 = tuple2, tuple1
+#print(tuple1)
+#print(tuple2)
+
+#Modify tuple
+tuple1 = (11, [22, 33], 44, 55)
+tuple1[1][0] = 222
+#print(tuple1)
+
 

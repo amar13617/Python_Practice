@@ -375,3 +375,11 @@ for i in b:
 #print(max)
 
 
+tuple1 = (1,2)
+dict = {1 : 'python', 2: 'c'}
+tuple2 = list(tuple1)
+tuple2.append(dict)
+#print(tuple(tuple2))
+
+
+

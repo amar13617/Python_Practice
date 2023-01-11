@@ -350,4 +350,28 @@ tuple1 = (11, [22, 33], 44, 55)
 tuple1[1][0] = 222
 #print(tuple1)
 
+#Counts the number of occurrences of item 50 from a tuple.
+tuple1 = (50, 10, 60, 70, 50)
+tuple2 = list(tuple1)
+x = []
+x1 = 50
+for i in tuple2:
+    if i == x1:
+        x.append(i)
+#print(x.count(50))
+
+t1 = (1,2,3,4,5,6,7,8)
+#print(t1[-5:-2])
+
+#(a,b,c,d) = (1,2,3)
+#ValueError
+
+a = (2,1,3,5,6,77,4)
+b = list(a)
+max = 0
+for i in b:
+    if i > max:
+        max = i
+#print(max)
+
 

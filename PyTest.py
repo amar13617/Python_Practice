@@ -271,5 +271,67 @@ dict1 = {'key 1': 200, 'key 2': 300}
 dict1 = {}
 for i in range(1,11):
     dict1[i] = i*i
-print(dict1)
+#print(dict1)
+
+strn = 'pytHOnloBBy'
+lower = []
+upper = []
+for i in range(len(strn)):
+    if strn[i].islower():
+        lower.append(strn[i])
+    else:
+        upper.append(strn[i])
+#print(" ".join(lower+upper))
+
+#count special character in string:
+n = '@pyThOnlobb!Y34'
+lower = 0
+upper = 0
+special = 0
+numeric = 0
+for i in range(len(n)):
+    if n[i].islower():
+        lower = lower + 1
+    elif n[i].isupper():
+        upper = upper + 1
+    elif n[i].isnumeric():
+        numeric = numeric + 1
+    else:
+        special = special + 1
+#print(special)
+#print(upper)
+
+n = ["name","age","","hello"]
+#n1 = []
+#for i in range(len(n)):
+#    if n[i] != "":
+#        n1.append(n[i])
+#print(n1)
+
+str1 = "geekforgeek"
+n = 4
+str2 = ''
+for char in range(len(str1)):
+    if char != n:
+        str2 = str2 + str1[char]
+#print(str2)
+
+
+
+    
+name = "Amar"
+like = "Biryaani"
+a = 'my {0} and i eat {1}'.format(name, like)
+#print(a)
+
+print('One'.isalpha())
+print('One1'.isalpha())
+
+#Reverse the tuple in python
+tuple1 = (10, 20, 30, 40, 50)
+tuple2 = list(tuple1)
+tuple_list = []
+for i in reversed(tuple2):
+    tuple_list.append(i)
+print(tuple(tuple_list))
 
